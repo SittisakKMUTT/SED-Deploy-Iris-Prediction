@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.linear_model import Perceptron
 
 
-model = pickle.load(open('Downloads/MLSED616/per_model-66130701721.sav', 'rb'))
+model = pickle.load(open('per_model-66130701721.sav', 'rb'))
 
 st.title("Iris Specice Prediction using Perceptrin ")
 
